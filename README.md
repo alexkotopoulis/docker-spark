@@ -1,3 +1,8 @@
+# About this fork
+This is a fork of the [big-data-europe/docker-spark](https://github.com/big-data-europe/docker-spark) collection of Spark Docker images. I am gently adding additional configuration options as well as examples to try out this Spark platform.
+
+---
+
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
 [![Build Status](https://travis-ci.org/big-data-europe/docker-spark.svg?branch=master)](https://travis-ci.org/big-data-europe/docker-spark)
 [![Twitter](https://img.shields.io/twitter/follow/BigData_Europe.svg?style=social)](https://twitter.com/BigData_Europe)
