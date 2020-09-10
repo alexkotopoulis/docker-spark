@@ -18,3 +18,18 @@ services:
     environment:
       - "SPARK_MASTER=spark://spark-master:7077"
       - "SPARK_WORKER_ARGS=--memory 20G"
+  db:
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: HelloMySql
+    ports:
+      - 3360:3306
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 9080:8080
+
